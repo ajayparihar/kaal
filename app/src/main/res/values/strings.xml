@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SAMAYA</string>
+
+
+    <string name="past">PAST</string>
+
+    <string name="p_label"></string>
+    <string name="p_d"></string>
+    <string name="p_days">DAYS</string>
+
+    <string name="p_h"></string>
+    <string name="p_hours">HOURS</string>
+
+    <string name="p_m"></string>
+    <string name="p_minutes">MINS</string>
+
+    <string name="p_s"></string>
+    <string name="p_seconds">SECS</string>
+
+
+    <string name="future">FUTURE</string>
+    <string name="event1"></string>
+
+
+    <string name="f_label"></string>
+    <string name="f_d"></string>
+    <string name="f_days">DAYS</string>
+
+    <string name="f_h"></string>
+    <string name="f_hours">HOURS</string>
+
+    <string name="f_m"></string>
+    <string name="f_minutes">MINS</string>
+
+    <string name="f_s"></string>
+    <string name="f_seconds">SECS</string>
+
+
+
+    <string name="n_future">NEAR FUTURE</string>
+    <string name="event2"></string>
+
+    <string name="n_label"></string>
+    <string name="n_d"></string>
+    <string name="n_days">DAYS</string>
+
+    <string name="n_h"></string>
+    <string name="n_hours">HOURS</string>
+
+    <string name="n_m"></string>
+    <string name="n_minutes">MINS</string>
+
+    <string name="n_s"></string>
+    <string name="n_seconds">SECS</string>
+</resources>
