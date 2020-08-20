@@ -14,22 +14,22 @@
         android:layout_marginTop="20dp" />
 
     <TextView
-            android:id="@+id/past"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:fontFamily="@font/rowdies_b"
-            android:gravity="center"
-            android:shadowColor="#3FBBFE"
-            android:shadowRadius="20"
-            android:text="@string/past"
-            android:textColor="#ffffff"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-        />
+        android:id="@+id/past"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rowdies_b"
+        android:gravity="center_horizontal"
+        android:shadowColor="#3FBBFE"
+        android:shadowRadius="20"
+        android:text="@string/past"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/past_days"
@@ -191,11 +191,12 @@
 
     <TextView
         android:id="@+id/future"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="220dp"
         android:fontFamily="@font/rowdies_b"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:shadowColor="#3FBBFE"
         android:shadowRadius="20"
         android:text="@string/future"
@@ -372,8 +373,9 @@
 
     <TextView
         android:id="@+id/near_future"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="430dp"
         android:fontFamily="@font/rowdies_b"
         android:gravity="center"
