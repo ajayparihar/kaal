@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
                     // Please here set your event date//YYYY-MM-DD
-                   Date nearFutureDate = dateFormat.parse("2022-06-12-19-40-00");
+                   Date nearFutureDate = dateFormat.parse("2023-06-12-19-40-00");
 
                     Date currentDate = new Date();
                     if (!currentDate.after(nearFutureDate)) {
@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
                                 + String.format("%02d", nseconds));
                     } else {
                         event_start2.setVisibility(View.VISIBLE);
-                        event_start2.setText("Hey!!.. Happy 25 Hope you are doing good");
+                        event_start2.setText("Hey!!.. Happy 26 Hope you are doing good");
                         textViewGone2();
                     }
                 } catch (Exception e) {
